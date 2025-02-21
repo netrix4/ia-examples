@@ -1,7 +1,6 @@
 import cv2
 import easyocr
 
-# Cargar la imagen
 
 def recorrerPixeles(imagen):
     ancho, alto, canales = imagen.shape

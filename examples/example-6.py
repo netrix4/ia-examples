@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Cargar la imagen
-imagen = cv2.imread("auto-pilot.jpg")
+imagen = cv2.imread("assets/auto-pilot.jpg")
 
 # Obtener tamaño
 alto, ancho, canales = imagen.shape

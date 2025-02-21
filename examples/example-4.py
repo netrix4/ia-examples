@@ -2,7 +2,7 @@
 import cv2
 
 # Leer una imagen
-imagen = cv2.imread("fuego.jpg")
+imagen = cv2.imread("assets/fuego.jpg")
 
 # Mostrar la imagen
 cv2.imshow("Imagen", imagen)
