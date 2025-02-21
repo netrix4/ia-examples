@@ -2,7 +2,7 @@
 import cv2
 
 # Leer una imagen
-imagen = cv2.imread("fuego.jpg")
+imagen = cv2.imread("assets/fuego.jpg")
 cv2.namedWindow("Imagen", cv2.WINDOW_NORMAL)
 # Convertir a escala de grises
 imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)

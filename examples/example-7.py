@@ -5,7 +5,7 @@ import easyocr
 import matplotlib.pyplot as plt
 
 # Cargar la imagen
-ruta_imagen = "texto.jpg"
+ruta_imagen = "assets/texto.jpg"
 imagen = cv2.imread(ruta_imagen)
 
 # Convertir la imagen de BGR a RGB (para visualización)

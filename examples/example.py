@@ -2,7 +2,7 @@
 from PIL import Image
 
 # Cargar la imagen
-imagen = Image.open("fuego.jpg")
+imagen = Image.open("assets/fuego.jpg")
 
 # Obtener tamaño de la imagen
 ancho, alto = imagen.size
