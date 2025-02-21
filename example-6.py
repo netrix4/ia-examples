@@ -18,6 +18,8 @@ imagen[150, 100] = [0, 255, 0]
 # Obtener solo el canal rojo de toda la imagen
 canal_rojo = imagen[:, :, 2]
 
+print(f'Canal rojo: {canal_rojo}')
+
 # Mostrar imagen modificada
 cv2.imshow("Imagen Modificada", imagen)
 cv2.waitKey(0)
